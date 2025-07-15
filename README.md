@@ -13,7 +13,7 @@ docker compose up kafka-0 kafka-1 kafka-2 ui -d
 2. Переходим внутрь созданного контейнера, создаем топик:
 
 ```bash
-$ docker exec -it lab1-kafka-0-1 bash
+$ docker exec -it kafka_lab1-kafka-0-1 bash
 I have no name!@b08829ba2901:/$ kafka-topics.sh \
   --create \
   --topic my-topic \
